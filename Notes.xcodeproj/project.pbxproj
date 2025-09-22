@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		116B92BD2E79D2DE0088BEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116B92BC2E79D2DE0088BEC9 /* LaunchScreen.storyboard */; };
+		116B92BF2E79D2E70088BEC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116B92BE2E79D2E70088BEC9 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		116B927C2E79C3610088BEC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		116B92652E79C35F0088BEC9 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116B927B2E79C3610088BEC9 /* NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		116B92852E79C3610088BEC9 /* NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		116B92BC2E79D2DE0088BEC9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		116B92BE2E79D2E70088BEC9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +95,8 @@
 		116B925C2E79C35F0088BEC9 = {
 			isa = PBXGroup;
 			children = (
+				116B92BE2E79D2E70088BEC9 /* Main.storyboard */,
+				116B92BC2E79D2DE0088BEC9 /* LaunchScreen.storyboard */,
 				116B92672E79C35F0088BEC9 /* Notes */,
 				116B927E2E79C3610088BEC9 /* NotesTests */,
 				116B92882E79C3610088BEC9 /* NotesUITests */,
@@ -225,6 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116B92BD2E79D2DE0088BEC9 /* LaunchScreen.storyboard in Resources */,
+				116B92BF2E79D2E70088BEC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
